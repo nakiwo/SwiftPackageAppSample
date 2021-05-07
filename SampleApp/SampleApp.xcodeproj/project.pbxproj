@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		DBC8842926455F7600B45B6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8842826455F7600B45B6F /* ContentView.swift */; };
 		DBC8842B26455F7700B45B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC8842A26455F7700B45B6F /* Assets.xcassets */; };
 		DBC8842E26455F7700B45B6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC8842D26455F7700B45B6F /* Preview Assets.xcassets */; };
+		DBC884372645606500B45B6F /* ViewLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = DBC884362645606500B45B6F /* ViewLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC884372645606500B45B6F /* ViewLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +40,7 @@
 			children = (
 				DBC8842526455F7600B45B6F /* SampleApp */,
 				DBC8842426455F7600B45B6F /* Products */,
+				DBC884352645606500B45B6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +72,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DBC884352645606500B45B6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +95,9 @@
 			dependencies = (
 			);
 			name = SampleApp;
+			packageProductDependencies = (
+				DBC884362645606500B45B6F /* ViewLibrary */,
+			);
 			productName = SampleApp;
 			productReference = DBC8842326455F7600B45B6F /* SampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -326,6 +339,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DBC884362645606500B45B6F /* ViewLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ViewLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DBC8841B26455F7600B45B6F /* Project object */;
 }
