@@ -4,4 +4,7 @@
    <FileRef
       location = "group:SampleApp/SampleApp.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ViewLibrary">
+   </FileRef>
 </Workspace>
