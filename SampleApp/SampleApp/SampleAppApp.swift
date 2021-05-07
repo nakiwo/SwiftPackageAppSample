@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import ViewLibrary
 
 @main
 struct SampleAppApp: App {
