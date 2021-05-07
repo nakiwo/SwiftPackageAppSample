@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DBC8842726455F7600B45B6F /* SampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8842626455F7600B45B6F /* SampleAppApp.swift */; };
-		DBC8842926455F7600B45B6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8842826455F7600B45B6F /* ContentView.swift */; };
 		DBC8842B26455F7700B45B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC8842A26455F7700B45B6F /* Assets.xcassets */; };
 		DBC8842E26455F7700B45B6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC8842D26455F7700B45B6F /* Preview Assets.xcassets */; };
 		DBC884372645606500B45B6F /* ViewLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = DBC884362645606500B45B6F /* ViewLibrary */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		DBC8842326455F7600B45B6F /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC8842626455F7600B45B6F /* SampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppApp.swift; sourceTree = "<group>"; };
-		DBC8842826455F7600B45B6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBC8842A26455F7700B45B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBC8842D26455F7700B45B6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBC8842F26455F7700B45B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				DBC8842626455F7600B45B6F /* SampleAppApp.swift */,
-				DBC8842826455F7600B45B6F /* ContentView.swift */,
 				DBC8842A26455F7700B45B6F /* Assets.xcassets */,
 				DBC8842F26455F7700B45B6F /* Info.plist */,
 				DBC8842C26455F7700B45B6F /* Preview Content */,
@@ -151,7 +148,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC8842926455F7600B45B6F /* ContentView.swift in Sources */,
 				DBC8842726455F7600B45B6F /* SampleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
